@@ -17,5 +17,5 @@ function Moo() {
     var uppercaseText = document.getElementById("userinput").value.toUpperCase();
     document.getElementById("userinput").value = uppercaseText;
     var text = document.getElementById("userinput").value;
-    document.getElementById("userinput").value = text.split(".").join(".-Moo");
+    document.getElementById("userinput").value = text.split(".").join("-Moo.");
 }
